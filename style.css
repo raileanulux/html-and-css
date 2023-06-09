@@ -58,10 +58,10 @@ button:hover{
 
 
 .box-container{
-    width: auto;
-    height: 520;
-    background-color: #ffc79d;
-    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 
 }
 
@@ -73,7 +73,7 @@ button:hover{
 .main-text{
     position: absolute;
     top: 175;
-    left: 30;
+    left: 240;
     text-transform: uppercase;
     font-size: 34px;
 }
@@ -86,11 +86,14 @@ button:hover{
 }
 
 .picture-top{
-    height: 520;
+    object-fit: cover;
     position: absolute;
-    right: 100;
-    border-radius: 115px;
+    right:300;
+    top: 60;
+  max-width: 310px;
+  border-radius: 40px;
 }
+
 
 #findmore{
     position: absolute;
@@ -108,14 +111,14 @@ button:hover{
     color:gray;
 }
 
-.informations{
+.informaions{
     position: relative;
     width: auto;
     height: 500px;
     background-color: aqua;
 }
 
-.square{
+.squae{
     position: absolute;
     width: 200px;
     height: 200px;
