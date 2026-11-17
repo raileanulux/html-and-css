@@ -1,0 +1,6 @@
+interface:
+  display_name: "Html And Css"
+  short_description: "Repo-specific patterns and workflows for html-and-css"
+  default_prompt: "Use the html-and-css repo skill to follow existing architecture, testing, and workflow conventions."
+policy:
+  allow_implicit_invocation: true
